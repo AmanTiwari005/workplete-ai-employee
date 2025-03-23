@@ -10,3 +10,6 @@ tensorflow==2.13.0
 flask==2.3.3
 eleven-labs-python==1.0.4
 watchdog==3.0.0
+soundfile==0.12.1
+requests
+tensorflow
