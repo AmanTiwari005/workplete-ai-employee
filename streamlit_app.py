@@ -9,14 +9,8 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import datetime as dt
 import shap
-import time
 import base64
 from io import BytesIO
-from app.data_generator import generate_synthetic_lead_data
-from app.data_processor import DataProcessor
-from app.lead_scorer import LeadScorer
-
-# Import our modules
 from app.data_generator import generate_synthetic_lead_data
 from app.data_processor import DataProcessor
 from app.lead_scorer import LeadScorer
